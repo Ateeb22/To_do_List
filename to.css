@@ -1,0 +1,70 @@
+.d {
+    background: rgb(92,226,238);
+background: linear-gradient(0deg, rgba(92,226,238,1) 0%, rgba(205,100,231,1) 100%);
+height: 700px;
+width: 1500px;
+}
+.do {
+  box-sizing: border-box;
+  width: 600px;
+  height: 100%;
+  border: 3px solid blueviolet;
+  margin-left: 450px;
+}
+.do1 {
+  text-align: center;
+}
+.do2{
+  margin: 20px 30px 20px 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-color:darkmagenta;
+  border: 3px solid darkmagenta;
+  background: rgb(249,91,221);
+  background: radial-gradient(circle, rgba(249,91,221,1) 0%, rgba(112,89,228,1) 100%);;
+}
+.do3 {
+  font-size: large;
+  font-style: italic;
+  padding-bottom: 5px;
+}
+.do4 {
+  width: 300px;
+  height: 35px;
+  background-color: lavenderblush;
+  /* border-style: ridge; */
+  /* border-radius: 2px; */
+  border: none;
+  padding-left: 10px;
+}
+
+.do5{
+  width: 80px;
+  height: 37px;
+  background-color: aquamarine;
+  margin-left: -3px;
+  border: none;
+  /* border-style: ridge; */
+  /* border-radius: 2px; */
+}
+.do5:hover{
+  background-color: deepskyblue;
+  color: white;
+  cursor:pointer;
+}
+.do6{
+  font-size: large;
+  font-style: italic;
+}
+.do7{
+  margin: 20px 30px 20px 30px;
+  padding-top: 20px;
+  padding-bottom: 360px;
+  border-color:darkmagenta;
+  border: 3px solid darkmagenta;
+  background: rgb(69,158,238);
+background: radial-gradient(circle, rgba(69,158,238,1) 0%, rgba(155,84,217,1) 100%);
+}
+.do8{
+  padding-bottom: 10px;
+}
