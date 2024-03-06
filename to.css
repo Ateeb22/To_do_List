@@ -1,7 +1,7 @@
 .d {
     background: rgb(92,226,238);
 background: linear-gradient(0deg, rgba(92,226,238,1) 0%, rgba(205,100,231,1) 100%);
-height: 700px;
+height: 710px;
 width: 1500px;
 }
 .do {
@@ -48,23 +48,45 @@ width: 1500px;
   /* border-radius: 2px; */
 }
 .do5:hover{
-  background-color: deepskyblue;
+  background: rgb(94,250,251);
+background: linear-gradient(0deg, rgba(94,250,251,1) 0%, rgba(199,72,221,1) 100%);
   color: white;
   cursor:pointer;
 }
 .do6{
   font-size: large;
   font-style: italic;
+ 
 }
 .do7{
   margin: 20px 30px 20px 30px;
-  padding-top: 20px;
-  padding-bottom: 360px;
+  height: 430px;
+  overflow: auto;
   border-color:darkmagenta;
   border: 3px solid darkmagenta;
   background: rgb(69,158,238);
-background: radial-gradient(circle, rgba(69,158,238,1) 0%, rgba(155,84,217,1) 100%);
+  background: radial-gradient(circle, rgba(69,158,238,1) 0%, rgba(155,84,217,1) 100%);
 }
 .do8{
   padding-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+/* .close {
+ 
+  right: 0;
+  
+  padding: 12px 16px 12px 16px;
+}
+.close:hover {
+  background-color: #f44336;
+  color: white;
+} */
