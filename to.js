@@ -14,43 +14,50 @@ function toprint()
     document.getElementById("datt").innerHTML = currentContent + "<br>" + userInput;
     document.getElementById("info").value = "";
 
-
-
-
-
-
-
-
-
-
-
-
-
-    // var myNodelist = document.getElementsByTagName("LI");
-    // var i;
-    // for (i = 0; i < myNodelist.length; i++) {
-    //   var span = document.createElement("SPAN");
-    //   var txt = document.createTextNode("\u00D7");
-    //   span.className = "close";
-    //   span.appendChild(txt);
-    //   myNodelist[i].appendChild(span);
-    // }
-    
-
-    // var close = document.getElementsByClassName("close");
-    // var i;
-    // for (i = 0; i < close.length; i++) {
-    //   close[i].onclick = function() {
-    //     var div = this.parentElement;
-    //     div.style.display = "none";
-    //   }
-    // }
-   
 }
+function toprint() {
+    var userInput = document.getElementById("info").value;
+    if (userInput.trim() !== "") {
+      var listItem = document.createElement("LI");
+      listItem.textContent = userInput;
+  
+      var closeButton = document.createElement("SPAN");
+      closeButton.className = "close";
+      closeButton.innerHTML = "\u00D7";
+      closeButton.addEventListener("click", function () {
+        this.parentElement.style.display = "none";
+      });
+  
+      listItem.appendChild(closeButton);
+      document.getElementById("datt").appendChild(listItem);
+  
+      document.getElementById("info").value = "";
+    }
+  }
+  
 
 
 
+  //     var myNodelist = document.getElementsByTagName("LI");
+//     var i;
+//     for (i = 0; i < myNodelist.length; i++) {
+//     var span = document.createElement("SPAN");
+//     var txt = document.createTextNode("\u00D7");
+//     span.className = "close";
+//     span.appendChild(txt);
+//     myNodelist[i].appendChild(span);
+//    }
 
+// // Add event listeners for the close buttons (to remove the corresponding LI element)
+//     var closeButtons = document.getElementsByClassName("close");
+//     for (var j = 0; j < closeButtons.length; j++) {
+//     closeButtons[j].addEventListener("click", function() {
+//     var listItem = this.parentElement;
+//     listItem.style.display = "none";
+//   });
+// }
+
+    
     // -----------printing data on div-----------
     // var result = document.getElementById("info").value
     // document.getElementById("datt").innerHTML = result
